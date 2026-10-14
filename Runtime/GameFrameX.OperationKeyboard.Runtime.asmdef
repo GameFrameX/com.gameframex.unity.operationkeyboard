@@ -1,0 +1,16 @@
+{
+    "name": "GameFrameX.OperationKeyboard.Runtime",
+    "rootNamespace": "GameFrameX.OperationKeyboard.Runtime",
+    "references": [
+        "GameFrameX.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
