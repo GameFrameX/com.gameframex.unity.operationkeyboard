@@ -41,6 +41,7 @@ namespace GameFrameX.OperationKeyboard.Runtime
         /// <summary>
         /// 初始化键盘拉起参数。
         /// </summary>
+        [UnityEngine.Scripting.Preserve]
         public OperationKeyboardShowOption()
         {
         }
@@ -49,6 +50,7 @@ namespace GameFrameX.OperationKeyboard.Runtime
         /// 以初始值初始化键盘拉起参数。
         /// </summary>
         /// <param name="defaultValue">键盘输入框初始值。</param>
+        [UnityEngine.Scripting.Preserve]
         public OperationKeyboardShowOption(string defaultValue)
         {
             DefaultValue = defaultValue;
@@ -57,6 +59,7 @@ namespace GameFrameX.OperationKeyboard.Runtime
         /// <summary>
         /// 获取或设置键盘输入框初始值（拉起时字段的当前文本）。
         /// </summary>
+        [UnityEngine.Scripting.Preserve]
         public string DefaultValue { get; set; } = string.Empty;
 
         /// <summary>
@@ -71,21 +74,25 @@ namespace GameFrameX.OperationKeyboard.Runtime
         /// Length cap is always -1: mini-game keyboards count the pinyin composition string,
         /// so a hard cap truncates Chinese input mid-composition. Platform dialects are mapped inside channel packages.
         /// </remarks>
+        [UnityEngine.Scripting.Preserve]
         public int MaxLength { get; set; } = -1;
 
         /// <summary>
         /// 获取或设置是否多行输入。
         /// </summary>
+        [UnityEngine.Scripting.Preserve]
         public bool Multiple { get; set; }
 
         /// <summary>
         /// 获取或设置点击确认按钮时键盘是否收起（true 不收起）。
         /// </summary>
+        [UnityEngine.Scripting.Preserve]
         public bool ConfirmHold { get; set; }
 
         /// <summary>
         /// 获取或设置确认按钮类型（"done" / "next" / "search" / "go" / "send"）。
         /// </summary>
+        [UnityEngine.Scripting.Preserve]
         public string ConfirmType { get; set; } = "done";
     }
 }

@@ -28,7 +28,6 @@
 //  ==========================================================================================
 
 using UnityEngine;
-using UnityEngine.Scripting;
 
 namespace GameFrameX.OperationKeyboard.Runtime
 {
@@ -36,12 +35,12 @@ namespace GameFrameX.OperationKeyboard.Runtime
     /// 键盘主包防裁剪助手。
     /// </summary>
     /// <remarks>
-    /// IL2CPP / 小游戏托管裁剪防护：以编译期类型引用保留注册表契约链，配合各类型自身的 [Preserve]。
+    /// IL2CPP / 小游戏托管裁剪防护：以编译期类型引用保留注册表契约链，配合各类型自身的 [UnityEngine.Scripting.Preserve]。
     /// </remarks>
-    [Preserve]
+    [UnityEngine.Scripting.Preserve]
     public class GameFrameXOperationKeyboardCroppingHelper : MonoBehaviour
     {
-        [Preserve]
+        [UnityEngine.Scripting.Preserve]
         private void Start()
         {
             _ = typeof(IOperationKeyboardManager);
