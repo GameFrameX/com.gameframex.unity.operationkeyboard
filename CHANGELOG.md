@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/gameframex/com.gameframex.unity.operationkeyboard/compare/1.0.0...1.0.1) (2026-10-15)
+
+
+### Bug Fixes
+
+* **keyboard:** Preserve 改为全限定特性引用 ([1f056b7](https://github.com/gameframex/com.gameframex.unity.operationkeyboard/commit/1f056b796fcbe4aee9a746fc0c2d0908df505a98))
+
 # 1.0.0 (2026-10-14)
 
 
