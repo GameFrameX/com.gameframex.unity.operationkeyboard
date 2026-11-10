@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/gameframex/com.gameframex.unity.operationkeyboard/compare/1.0.1...1.0.2) (2026-11-10)
+
+
+### Bug Fixes
+
+* **operationkeyboard:** 添加完整 link.xml 防代码裁剪保护 ([f0f84e9](https://github.com/gameframex/com.gameframex.unity.operationkeyboard/commit/f0f84e9e9c50ff837d6fda5e39ea8cc22fe1528b))
+
 ## [1.0.1](https://github.com/gameframex/com.gameframex.unity.operationkeyboard/compare/1.0.0...1.0.1) (2026-10-15)
 
 
