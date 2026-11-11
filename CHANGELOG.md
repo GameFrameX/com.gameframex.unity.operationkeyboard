@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/gameframex/com.gameframex.unity.operationkeyboard/compare/1.0.2...1.1.0) (2026-11-11)
+
+
+### Features
+
+* **operationkeyboard:** 注册表创建时输出渠道日志 ([25225c7](https://github.com/gameframex/com.gameframex.unity.operationkeyboard/commit/25225c79a2e24a2176dd9ad09285b15c1852bc8a))
+
 ## [1.0.2](https://github.com/gameframex/com.gameframex.unity.operationkeyboard/compare/1.0.1...1.0.2) (2026-11-10)
 
 
